@@ -1,0 +1,114 @@
+/*header kismi grid kullanarak yapildi genellikle hiyrarsik ve grup seciciler kullanildi*/
+body>header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: inherit;
+}
+
+header :nth-child(3) {
+    justify-self: center;
+    display: grid;
+}
+
+nav {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0, 5fr 0, 5fr 0, 5fr 0, 5fr 0, 5fr;
+    column-gap: 15px;
+}
+
+#home,
+#dm {
+    background-color: white;
+
+}
+
+#primg {
+    background-image: url(https://drive.google.com/thumbnail?id=1hfBAInw1lIiHo1XYlonCQVjg25SjCtDD&authuser=0&sz=w1279-h637);
+    background-repeat: no-repeat;
+    background-size: 45px 30px;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+header :nth-child(1) {
+    justify-self: start;
+}
+
+header :nth-child(2) {
+    justify-self: center;
+}
+
+header>.search {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    color: rgb(170, 170, 170);
+}
+/*******************************************************************************************/
+/*menu kismi grid kullanrak yapildi genel olarak id,class ve pseudo seciciler kullanilldi */
+body>menu {
+    display: grid;
+    grid-template-columns: 0.9fr 2fr 1fr;
+
+}
+
+input.brtn {
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+#logoimg {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    justify-self: end;
+}
+
+section.bio {
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    column-gap: 15px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.bio>p {
+    justify-self: start;
+}
+
+strong {
+    font-size: x-large;
+}
+
+.bio2 {
+    text-align: start;
+}
+/************************************************************************/
+/*bu kisimda flex daha cok isime yaricagini dusuneerek flex ile yaptim */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-top: rgb(231, 231, 231) solid;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.fotactive {
+    border-top: black solid;
+
+}
+/*****************************************************************/

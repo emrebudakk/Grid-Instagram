@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!---header img ve span tagini kullandim iconlar kismi icinde daha iyi olur dusunce ile nav tagini kullandim-->
+    <header>
+        <img src="data:image/png;base64,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"
+            alt="instagram-logo" width="200px" height="30px">
+        <span class="search"><i class="fa fa-search">Suchen</i></span>
+        <nav class="icon">
+            <span id="home"><i class="fa  fa-home fa-2x "></i></span>
+            <span id="dm"><i class="fa fa-paper-plane fa-2x"></i></span>
+            <span id="discover"><i class="fa fa-compass fa-2x"></i></span>
+            <span id="like"><i class="fa fa-heart fa-2x"></i></span>
+            <span id="primg"><img
+                    src="https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/control-record-circle-choice-round-256.png"
+                    alt="Profil" width="30px" height="30px">
+            </span>
+        </nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------>
+    <hr>
+    <!--duzeneme acisindan kolaylik olmasi icin dista img tagi ve icerde sectin tagi kullanip section icini doldurdum-->
+    <menu>
+        <img id="logoimg"
+            src="https://drive.google.com/thumbnail?id=1hfBAInw1lIiHo1XYlonCQVjg25SjCtDD&authuser=0&sz=w1279-h637"
+            alt="Profil">
+        <section class="bio">
+
+            <h2> hicoder_ch</h2>
+            <input type="text" value="Profil bearbeiten" class="brtn">
+            <span><i class="fa fa-cog fa-2x"></i></span>
+            <p>0 Beitrage</p>
+            <p>0 Abonnenten</p>
+            <p>1 Abonniert</p>
+            <p class="bio2">
+                <strong> HiCoder Ch</strong>
+                <br>
+                <a href="#">hicoders.ch</a> </p>
+        </section>
+    </menu>
+    <!--------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------------------------------------------->
+    <footer>
+        <span class="fotactive"><i class="fa fa-table"></i> BEITRÄGE </span>
+        <span class="fot"><i class="fa fa-television"></i> IGTV </span>
+        <span class="fot"><i class="fa fa-bookmark-o"></i> GESPEICHERT</span>
+        <span class="fot"><i class="fa fa-user-o"></i> MARKIERT </span>
+    </footer>
+    <!--------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>
